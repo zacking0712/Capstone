@@ -910,6 +910,12 @@ div#small-dialog iframe {
   }
 }
 
+@media screen and (max-width: 480px) {
+  .banner_content h1 {
+    line-height: 50px;
+  }
+}
+
 @media screen and (max-width: 576px) {
   .header_items form {
     display: none;
