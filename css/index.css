@@ -533,6 +533,7 @@ header {
 
 /* Video */
 .video {
+  position: relative;
   padding: 80px 0;
 }
 
@@ -542,10 +543,18 @@ header {
   background-position: center;
   height: 500px;
   position: relative;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   filter: brightness(50%);
+}
+
+.open-popup-link {
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  width: 100%;
+  transform: translateY(256%);
 }
 
 .open-popup-link i {
