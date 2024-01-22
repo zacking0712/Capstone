@@ -193,3 +193,7 @@ body {
 .dark .plan .plan_menu .plan_top {
   border-bottom: 1px dashed #fff;
 }
+
+.dark .stats_bg {
+  background-color: #232121;
+}
